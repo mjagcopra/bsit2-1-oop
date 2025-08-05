@@ -41,9 +41,9 @@ public class Book {
     }
 
     public static void main(String[] args) {
-        Book book1 = new Book("Data Structures and Algorithms", "Janzen Reid", 281);
-        Book book2 = new Book("Object Oriented Programming", " Mike Janzen", 328);
-        Book book3 = new Book("The Great Gatsby", "F. Scott Fitzgerald", 180);
+        Book book1 = new Book("Data Structures and Algorithms", "Janzen Reid", 381);
+        Book book2 = new Book("Object Oriented Programming", " Mike Janzen", 368);
+        Book book3 = new Book("Programming Fundamentals", "Agcopra", 100);
 
         book1.displayInfo();
         book2.displayInfo();
