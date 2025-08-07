@@ -6,23 +6,20 @@ public class Main {
         Student student3 = new Student("Kael", 19, "AP", 55.0, 58.5, 61.0);
 
 
-        Student[] students = {student1, student2, student3};
+        System.out.println("student1");
+        System.out.println("student1.name");
+        System.out.println("student1.course");
+        System.out.println("student1.age");
 
-        int passingCount = 0;
+        System.out.println("student2");
+        System.out.println("student2.name");
+        System.out.println("student2.course");
+        System.out.println("student2.age");
 
-
-        for (Student s : students) {
-            s.displayInfo();
-            double avg = s.calculateAverage();
-            String letter = s.getLetterGrade();
-            boolean passing = s.isPassing();
-
-            System.out.printf("Average Grade: %.2f\n", avg);
-            System.out.println("Letter Grade: " + letter);
-            System.out.println("Status: " + (passing ? "PASSING" : "FAILING"));
-            System.out.println("");
-
-            if (passing) passingCount++;
+        System.out.println("student3");
+        System.out.println("student3.name");
+        System.out.println("student3.course");
+        System.out.println("student3.age");
         }
 
 
