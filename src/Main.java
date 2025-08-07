@@ -2,8 +2,8 @@ public class Main {
     public static void main(String[] args) {
 
         Student student1 = new Student("Mike", 20, "Math", 85.5, 78.0, 92.0);
-        Student student2 = new Student("Derek", 22, "Science", 65.0, 70.0, 60.0);
-        Student student3 = new Student("Kael", 19, "History", 55.0, 58.5, 61.0);
+        Student student2 = new Student("Derek", 22, "English", 65.0, 70.0, 60.0);
+        Student student3 = new Student("Kael", 19, "AP", 55.0, 58.5, 61.0);
 
 
         Student[] students = {student1, student2, student3};
